@@ -2,7 +2,7 @@
 Macro que realiza un Scraping a la pagina de staking en Binance y saca datos de: " Duración de Stake / APY / Estado " en base a la extencob 
 
  
-Binance Staking Viewer V0.1 (BETA)
+Binance Staking Viewer V0.2 (BETA)
 
 Este es un código que permite extraer información sobre " Activo / Duración de Staking / APY / Estado Actual ". 
 Esto en las diferentes opciones que nos ofrece Binance para cada activo que tengamos en nuestra "WatchList". 
