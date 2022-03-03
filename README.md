@@ -94,7 +94,7 @@ CODIGO:
 
 
 {
-  "Name": "BIN-STAKING-VIEW",
+  "Name": "BIN-STAKING-VIEW-2",
   "CreationDate": "2022-3-3",
   "Commands": [
     {
@@ -116,26 +116,8 @@ CODIGO:
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "pause // 2000",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "comment",
-      "Target": "click // xpath=//*[@class=\"css-1an9uq5\"]/button[1]",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "comment",
-      "Target": "click // xpath=//*[@class=\"css-1an9uq5\"]/button[2]",
-      "Value": "",
-      "Description": ""
-    },
-    {
-      "Command": "comment",
-      "Target": "click // xpath=//*[@class=\"css-1an9uq5\"]/button[3]",
+      "Command": "pause",
+      "Target": "1000",
       "Value": "",
       "Description": ""
     },
@@ -152,12 +134,6 @@ CODIGO:
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "pause // 1000",
-      "Value": "",
-      "Description": ""
-    },
-    {
       "Command": "storeText",
       "Target": "xpath=//*[@class=\"css-1an9uq5\"]/button[1]",
       "Value": "!csvLine",
@@ -170,14 +146,14 @@ CODIGO:
       "Description": ""
     },
     {
-      "Command": "click",
-      "Target": "xpath=//*[@class=\"css-1an9uq5\"]/button[2]",
-      "Value": "",
+      "Command": "storeText",
+      "Target": "xpath=//*[@class=\"css-1dmwl4e\"]/button[1]",
+      "Value": "!csvLine",
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "pause // 1000",
+      "Command": "click",
+      "Target": "xpath=//*[@class=\"css-1an9uq5\"]/button[2]",
       "Value": "",
       "Description": ""
     },
@@ -194,14 +170,14 @@ CODIGO:
       "Description": ""
     },
     {
-      "Command": "click",
-      "Target": "xpath=//*[@class=\"css-1an9uq5\"]/button[3]",
-      "Value": "",
+      "Command": "storeText",
+      "Target": "xpath=//*[@class=\"css-1dmwl4e\"]/button[1]",
+      "Value": "!csvLine",
       "Description": ""
     },
     {
-      "Command": "comment",
-      "Target": "pause // 1000",
+      "Command": "click",
+      "Target": "xpath=//*[@class=\"css-1an9uq5\"]/button[3]",
       "Value": "",
       "Description": ""
     },
@@ -214,6 +190,12 @@ CODIGO:
     {
       "Command": "storeText",
       "Target": "xpath=//*[@class=\"css-14ubhgt\"]",
+      "Value": "!csvLine",
+      "Description": ""
+    },
+    {
+      "Command": "storeText",
+      "Target": "xpath=//*[@class=\"css-1dmwl4e\"]/button[1]",
       "Value": "!csvLine",
       "Description": ""
     },
@@ -225,7 +207,6 @@ CODIGO:
     }
   ]
 }
-
 
 
 
