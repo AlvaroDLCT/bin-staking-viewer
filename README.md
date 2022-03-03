@@ -10,7 +10,7 @@ Esto en base a una extensión de navegador llamada "UI Vision", en este caso con
 
 
 
-WatchList:
+WatchList: (staking-coins-wl.csv)
 Es un archivo de tipo CSV que contiene en su primera columna el listado de activos (TICKET) de los cuales requerimos la información.
 
 EJEMPLO
@@ -26,7 +26,7 @@ SAND
 
 TIP:
 Se puede crear un archivo en cualquier editor de texto con esta lista y al momento de guardar se usa la opción "guardar como" 
-y se guarda con la extensión CSV (Archivo Separado por comas).
+y se guarda con la extensión CSV (Archivo Separado por comas). Nombrar el archivo como "staking-coins-wl.csv"
 
 
 
