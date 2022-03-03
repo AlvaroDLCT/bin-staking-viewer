@@ -8,7 +8,8 @@ Este es un código que permite extraer información sobre " Activo / Duración d
 Esto en las diferentes opciones que nos ofrece Binance para cada activo que tengamos en nuestra "WatchList". 
 Esto en base a una extensión de navegador llamada "UI Vision", en este caso con un navegador en base chromium (Google Chrome, Edge, etc)
 
-
+---------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------
 
 WatchList: (staking-coins-wl.csv)
 Es un archivo de tipo CSV que contiene en su primera columna el listado de activos (TICKET) de los cuales requerimos la información.
@@ -29,7 +30,8 @@ Se puede crear un archivo en cualquier editor de texto con esta lista y al momen
 y se guarda con la extensión CSV (Archivo Separado por comas). Nombrar el archivo como "staking-coins-wl.csv"
 
 
-
+---------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------
 
 
 UI Vision:
@@ -42,6 +44,8 @@ Es una extensión que nos ayuda con una interfaz sencilla para interactuar con p
 
 Se puede importar el archivo JSON o copiar y pegar el codigo detallado mas adelante. 
 
+---------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------
 
 MODO DE USO:
 
@@ -81,7 +85,8 @@ Para ver un video explicativo pasar por el siguiente link:
 
 
 
-
+---------------------------------------------------------------------------------------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------------------------------------------
 
 
 CODIGO:
